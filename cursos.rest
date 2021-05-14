@@ -1,0 +1,32 @@
+###
+GET http://localhost:3000/api/cursos
+
+###
+POST  http://localhost:3000/api/cursos
+Content-Type: application/json
+x-acces-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOWRjZmVmY2Q3ZGZhMjViNDQ3Y2NjOCIsImlhdCI6MTYyMDk2MjAzNywiZXhwIjoxNjIxMDQ4NDM3fQ.xYZG9elKIszqTuQYjI5QZIKjBaGYu3luZrBKfLScB5A
+
+{
+    "nombre":"Intro a la progrmación v8",
+    "categoria":"Tecnología",
+    "precio":3200,
+    "imgUrl":"https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg",
+    "descripcion":"REaliza los programas mas perrones"
+}
+
+###
+GET http://localhost:3000/api/cursos/609dae3837e86829247dbe56
+
+
+###
+PUT  http://localhost:3000/api/cursos/609db357d71af11ae4fe2d42
+Content-Type: application/json
+
+{
+    "nombre":"Diseño UX/UI 2021"
+}
+
+
+
+###
+DELETE http://localhost:3000/api/cursos/609db357d71af11ae4fe2d42

@@ -1,0 +1,13 @@
+###
+PUT http://localhost:3000/api/users/609dca494516af08e0d5a2f5
+x-acces-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOWRkMDg3NjU1ZTIwMjFiMDhjY2QxNyIsImlhdCI6MTYyMDk2NDA3MywiZXhwIjoxNjIxMDUwNDczfQ.Fck3CGSmwCg6VQM18tMyg6SD8hjiMMsoagOWxFU6j5w
+Content-Type: application/json
+
+{
+   "username":"paola1710",
+   "roles":["docente"]
+}
+
+###
+GET http://localhost:3000/api/users
+x-acces-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYwOWRkMDg3NjU1ZTIwMjFiMDhjY2QxNyIsImlhdCI6MTYyMDk2NDA3MywiZXhwIjoxNjIxMDUwNDczfQ.Fck3CGSmwCg6VQM18tMyg6SD8hjiMMsoagOWxFU6j5w
